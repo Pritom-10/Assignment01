@@ -109,7 +109,7 @@ nav{
 }
 #notes{
   background: #FBFBFB;
-  min-height: 674px;
+  min-height: 500px;
   margin-top: 24px;
 }
 .scatted-notes P{
@@ -239,3 +239,53 @@ nav{
   flex-direction: column;
   gap: 16px;
 }
+.brain-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 120px;
+  gap: 60px;
+}
+.text1{
+  font-size: 16px;
+  font-weight: 500;
+  color: #30B868;
+  margin-bottom: 20px;
+}
+.text2{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.text3{
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.text-info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.info1{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.info2{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.info3{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.info4{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
