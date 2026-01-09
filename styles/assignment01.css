@@ -1,0 +1,29 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #FFFFFF;
+  padding: 16px 120px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav-option ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.nav-btn button{
+  color: white;
+  background-color: #30B868;
+  padding: 12.5px 16px;
+}
